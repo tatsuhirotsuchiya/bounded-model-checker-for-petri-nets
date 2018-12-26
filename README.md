@@ -15,6 +15,7 @@ Just compile the program using a C compiler.
 
 The program takes a PEP file as input and outputs a Boolean formula. 
 For example, `a.out 2 test.pep` outputs the following formula.
+
     (s1_0 & !s2_0 & !s3_0 & !s4_0 & !s5_0 & !s6_0 & !s7_0)
     & ((s1_0 & !s1_1 & s2_1 & s3_1) | ((s1_0 = s1_1) & (s2_0 = s2_1) & (s3_0 = s3_1)))
     & ((s2_1 & !s2_2 & s6_2) | ((s2_1 = s2_2) & (s6_0 = s6_2)))
