@@ -48,7 +48,7 @@ but the notion of steps here is quite different from the ordinary one.
 For technical details, see the above paper. 
 
 It should be noted that sastisfiablity solvers usually require the input formula to be in CNF. 
-For CNF transtation, [`bool2sat`](https://github.com/tkren/bool2cnf) can be used.
+For CNF transtation, [`bool2cnf`](https://github.com/tkren/bool2cnf) can be used.
 Hence a typical usage is like: `./a.out 2 test.pep > tmp.bool; ./bool2cnf < tmp.bool > tmp.cnf; minisat tmp.cnf`
 
 # License 
